@@ -9,7 +9,7 @@ Android voice assistant where **speech-to-text and text-to-speech run fully on t
 ## Architecture
 
 ```
-Mic â†’ Whisper STT (on-device) â†’ Gemini LLM (cloud, streamed) â†’ Piper TTS (on-device) â†’ Speaker
+Mic → Whisper STT (on-device) → Gemini LLM (cloud, streamed) → Piper TTS (on-device) → Speaker
 ```
 
 | Part | Tech | Where |
