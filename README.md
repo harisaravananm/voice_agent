@@ -1,11 +1,15 @@
 # On-Device Voice Agent (English + Hinglish)
 
+<!-- tech-version-badges -->
+![Android On--device](https://img.shields.io/badge/Android-On--device-3DDC84?style=for-the-badge&logo=android&logoColor=white) ![Whisper STT](https://img.shields.io/badge/Whisper-STT-412991?style=for-the-badge&logo=openai&logoColor=white) ![Gemini 2.5%20Flash](https://img.shields.io/badge/Gemini-2.5%20Flash-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white) ![Piper VITS%20TTS](https://img.shields.io/badge/Piper-VITS%20TTS-FF6F00?style=for-the-badge)
+<!-- /tech-version-badges -->
+
 Android voice assistant where **speech-to-text and text-to-speech run fully on the phone**. Only the LLM runs in the cloud (Gemini API).
 
 ## Architecture
 
 ```
-Mic → Whisper STT (on-device) → Gemini LLM (cloud, streamed) → Piper TTS (on-device) → Speaker
+Mic â†’ Whisper STT (on-device) â†’ Gemini LLM (cloud, streamed) â†’ Piper TTS (on-device) â†’ Speaker
 ```
 
 | Part | Tech | Where |
